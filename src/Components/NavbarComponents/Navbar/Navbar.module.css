@@ -1,0 +1,11 @@
+.navbar_container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 5vh 10vw;
+}
+
+.navbar_container img {
+    width: 10.53vw;
+    height: 2.87vh;
+}

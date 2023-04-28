@@ -1,0 +1,24 @@
+.background_div {
+    width: 70vw;
+    height: 63.26vh;
+    background-image: url('../../../assets/shared/desktop/bg-pattern-leaf.svg');
+    background-size: 70vw 63.26vh;
+    background-repeat: no-repeat;
+    position: absolute;
+    left: 0px;
+    top: 50.58vh;
+    z-index: 1;
+}
+
+.background_div_invert {
+    width: 70vw;
+    height: 63.26vh;
+    background-image: url('../../../assets/shared/desktop/bg-pattern-leaf.svg');
+    background-size: 70vw 63.26vh;
+    background-repeat: no-repeat;
+    position: absolute;
+    right: 0px;
+    top: 191vh;
+    transform: rotate(180deg);
+    z-index: 1;
+}

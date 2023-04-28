@@ -1,0 +1,63 @@
+.ask_to_contact_container {
+    width: 79.5vw;
+    height: 31.09vh;
+    margin: 0vh 10vw;
+    border-radius: 14px;
+    margin-top: 10vh;
+    margin-bottom: 10vh;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 200;
+
+    background-color: #E7816B;
+    background-image: url('../../../assets/shared/desktop/bg-pattern-call-to-action.svg');
+    background-repeat: no-repeat;
+    background-position: right center;
+    position: relative;
+    overflow: hidden;
+}
+
+.ask_to_contact_content_title {
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 48px;
+    color: #FFFFFF;
+}
+
+.ask_to_contact_content_description {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #FFFFFF;
+}
+
+.ask_to_contact_content_button {
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 22px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #333136;
+
+    background-color: #fff;
+    border: 2px solid #fff;
+    padding: 1vh 0vw;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-top: 3vh;
+    margin-right: 5vw;
+    width: 20%;
+}
+
+.ask_to_contact_content_button:hover {
+    background-color: #FFAD9B;
+    color: #fff;
+    border-color: #FFAD9B;
+}
+
+.ask_to_contact_content_container {
+    /* margin-left: 5vw; */
+    margin: 0vh 10vw 0vw 5vw;
+}

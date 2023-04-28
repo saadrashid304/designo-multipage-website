@@ -1,0 +1,25 @@
+.navbar_links_container {
+    list-style: none;
+    display: flex;
+    padding: 0px;
+
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 14px;
+    letter-spacing: 2px;
+    color: #333136;
+}
+
+.navbar_links_container li {
+    margin-left: 2.19vw;
+}
+
+.navbar_links_container li:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.navbar_links_container_light {
+    color: #fff;
+}

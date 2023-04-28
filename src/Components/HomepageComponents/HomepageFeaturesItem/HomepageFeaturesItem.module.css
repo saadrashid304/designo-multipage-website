@@ -1,0 +1,33 @@
+.homepage_features_item_conatiner {
+    text-align: center;
+}
+
+.homepage_features_item_image {
+    background-image: url('../../../assets//shared/desktop/bg-pattern-small-circle.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.homepage_features_item_title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 26px;
+    /* identical to box height, or 130% */
+
+    text-align: center;
+    letter-spacing: 5px;
+
+    color: #333136;
+}
+
+.homepage_features_item_description {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    /* or 162% */
+
+    text-align: center;
+
+    color: #333136;
+    width: 18.24vw;
+}
