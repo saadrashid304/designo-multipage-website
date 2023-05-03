@@ -1,0 +1,14 @@
+.design_content_list_container {
+    width: 79.5vw;
+    /* height: 43.87vh; */
+    margin: 0vh 10vw;
+    position: relative;
+    z-index: 200;
+
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+
+    /* border: 2px solid black; */
+    margin-top: 15vh;
+}

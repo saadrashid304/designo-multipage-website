@@ -1,0 +1,49 @@
+.design_header_container_web {
+    background-image: url('../../../assets/web-design/desktop/bg-pattern-intro-web.svg');
+    background-position: right center;
+}
+
+.design_header_container_app {
+    background-image: url('../../../assets/app-design/desktop/bg-pattern-intro-app.svg');
+    background-position: left center;
+}
+
+.design_header_container_graphic {
+    background-image: url('../../../assets/graphic-design/desktop/bg-pattern-intro-graphic.svg');
+    background-position: left center;
+}
+
+.design_header_container {
+    width: 79.5vw;
+    height: 31.09vh;
+    margin: 0vh 10vw;
+    border-radius: 14px;
+
+    background-color: #E7816B;
+    background-repeat: no-repeat;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    position: relative;
+    z-index: 5;
+}
+
+.design_header_title {
+    font-weight: 500;
+    font-size: 48px;
+    margin-bottom: 10px;
+    /* line-height: 48px; */
+}
+
+.design_header_description {
+    width: 28vw;
+    height: 52px;
+
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+}

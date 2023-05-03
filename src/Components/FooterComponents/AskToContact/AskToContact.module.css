@@ -3,8 +3,8 @@
     height: 31.09vh;
     margin: 0vh 10vw;
     border-radius: 14px;
-    margin-top: 10vh;
-    margin-bottom: 10vh;
+    margin-top: 5vh;
+    transform: translateY(6vh);
 
     display: flex;
     justify-content: space-between;

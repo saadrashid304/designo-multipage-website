@@ -2,12 +2,14 @@
     background-color: #1D1C1E;
     height: 41.85vh;
     width: 100%;
-    position: absolute;
-    top: 260vh;
+    position: relative;
+    z-index: 5;
 }
 
 .footer_navbar_container {
-    margin-top: 12vh;
+    padding-top: 7vh;
+    /* margin-top: 120vh; */
+    /* border: 2px solid red; */
 }
 
 .footer_information {
@@ -34,10 +36,9 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 12%;
+    width: 14%;
 }
 
 .footer_icon_container img {
     cursor: pointer;
-    fill: #FFFFFF;
 }

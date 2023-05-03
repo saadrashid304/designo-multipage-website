@@ -1,0 +1,58 @@
+.about_description_container {
+    width: 79.5vw;
+    height: 68.15vh;
+    margin: 0vh 10vw;
+    border-radius: 14px;
+    margin-top: 17.04vh;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 200;
+
+    background-color: #FDF3F0;
+    background-image: url('../../../assets/shared/desktop/bg-pattern-two-circles.svg');
+    background-repeat: no-repeat;
+    background-position: bottom center;
+    position: relative;
+    overflow: hidden;
+}
+
+.about_description_right {
+    flex-direction: row-reverse;
+    background-position: bottom left;
+}
+
+.about_description_image {
+    height: 100%;
+    width: 85%;
+    background-image: url('../../../assets/about/desktop/image-world-class-talent.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.about_description_image_left {
+    background-image: url('../../../assets/about/desktop/image-real-deal.jpg');
+}
+
+.about_description_content_container {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    /* or 162% */
+    color: #333136;
+    margin-left: 7vw;
+    width: 80vw;
+}
+
+.about_description_content_title {
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 48px;
+    margin-bottom: 0px;
+    color: #E7816B;
+}
+
+.about_description_content_description {
+    width: 30vw;
+}

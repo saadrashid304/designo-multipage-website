@@ -17,7 +17,7 @@ import twitterS from "../../../assets/shared/desktop/twitter.svg";
 import pinterestS from "../../../assets/shared/desktop/pinterest.svg";
 import instagramS from "../../../assets/shared/desktop/instagram.svg";
 
-const Footer = () => {
+const Footer = (props) => {
   const [hover, setHover] = useState(null);
 
   const onFMouseOver = () => {

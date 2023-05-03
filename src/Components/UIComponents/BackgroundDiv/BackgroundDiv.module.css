@@ -22,3 +22,16 @@
     transform: rotate(180deg);
     z-index: 1;
 }
+
+.background_div_web {
+    top: 29.92vh;
+}
+
+.background_div_location {
+    top: 185vh;
+    transform: translateX(30vw);
+}
+
+/* .background_div_about {
+    top: 50.58vh;
+} */

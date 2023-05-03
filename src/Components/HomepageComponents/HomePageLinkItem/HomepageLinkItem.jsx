@@ -7,9 +7,10 @@ const HomepageLinkItem = (props) => {
     <Card
       className={`${styles.homepage_link_item_container} ${
         props.image === "web" && styles.image_web
-      } ${props.image === "app" && styles.image_app} ${
-        props.image === "graphic" && styles.image_graphic
-      }`}
+      } ${props.image === "web_small" && styles.image_web_small} ${
+        props.image === "app" && styles.image_app
+      } ${props.image === "graphic" && styles.image_graphic}`}
+      onClick={props.onClick}
     >
       <p className={styles.homepage_link_item_title}>{props.title}</p>
       <p className={styles.homepage_link_item_view}>

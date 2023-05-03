@@ -1,0 +1,41 @@
+.about_location_item_conatiner {
+    text-align: center;
+    z-index: 100;
+    position: relative;
+}
+
+.about_location_item_image {
+    background-image: url('../../../assets//shared/desktop/bg-pattern-small-circle.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.about_location_item_title {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 26px;
+    /* identical to box height, or 130% */
+
+    text-align: center;
+    letter-spacing: 5px;
+
+    color: #333136;
+    margin-top: 5vh;
+}
+
+.about_location_item_button {
+    font-size: 16px;
+
+    color: #fff;
+    width: 7.8vw;
+    background: #E7816B;
+    border-radius: 8px;
+    padding: 1.5vh 0vw;
+    border: 2px solid #E7816B;
+    cursor: pointer;
+}
+
+.about_location_item_button:hover {
+    background-color: #FFAD9B;
+    border: 2px solid #FFAD9B;
+}

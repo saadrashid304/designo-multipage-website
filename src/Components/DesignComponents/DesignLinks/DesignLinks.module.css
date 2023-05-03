@@ -1,0 +1,13 @@
+.design_link_container {
+    width: 79.5vw;
+    /* height: 68.15vh; */
+    margin: 0vh 10vw;
+    position: relative;
+    z-index: 200;
+
+    display: flex;
+    justify-content: space-between;
+
+    /* border: 2px solid black; */
+    margin-top: 10vh;
+}
