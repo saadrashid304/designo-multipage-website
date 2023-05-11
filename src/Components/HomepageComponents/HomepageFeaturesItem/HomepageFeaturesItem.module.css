@@ -31,3 +31,24 @@
     color: #333136;
     width: 18.24vw;
 }
+
+@media screen and (max-width: 768px) {
+    .homepage_features_item_conatiner {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 5vh;
+    }
+
+    .homepage_features_item_title {
+        text-align: left;
+    }
+
+    .homepage_features_item_description {
+        width: 100%;
+        text-align: left;
+    }
+
+    .homepage_features_content_container {
+        width: 60%;
+    }
+}

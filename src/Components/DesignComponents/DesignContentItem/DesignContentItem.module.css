@@ -55,3 +55,26 @@
 .design_content_item_container:hover .design_content_item_content_description {
     color: #fff;
 }
+
+@media screen and (max-width: 768px) {
+    .design_content_item_container {
+        width: 100%;
+        height: 33.01vh;
+        display: flex;
+        overflow: hidden;
+    }
+
+    .design_content_item_container img {
+        width: 50%;
+    }
+
+    .design_content_item_content_container {
+        width: 50%;
+        justify-content: center;
+    }
+
+    .design_content_item_content_description {
+        width: 80%;
+    }
+
+}

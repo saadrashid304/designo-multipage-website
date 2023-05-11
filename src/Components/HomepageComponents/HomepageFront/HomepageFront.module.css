@@ -59,3 +59,22 @@
     color: #fff;
     border-color: #FFAD9B;
 }
+
+@media screen and (max-width: 768px) {
+    .homepage_front_container {
+        flex-direction: column;
+        /* overflow: visible; */
+        height: 89.77vh;
+        background-position: center center;
+    }
+
+    .homepage_front_content_container {
+        width: 80%;
+        margin: 0px;
+        text-align: center;
+    }
+
+        .mobile_image {
+            margin-top: -12vh;
+        }
+}

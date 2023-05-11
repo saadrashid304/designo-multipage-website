@@ -32,6 +32,40 @@
     transform: translateX(30vw);
 }
 
+.background_div_contact {
+    width: 70vw;
+    height: 100%;
+    background-image: url('../../../assets/shared/desktop/bg-pattern-leaf.svg');
+    background-size: 70vw 100%;
+    background-repeat: no-repeat;
+    position: absolute;
+    right: 0px;
+    top: 94vh;
+    z-index: 1;
+}
+
 /* .background_div_about {
     top: 50.58vh;
 } */
+
+@media screen and (max-width: 768px) {
+    .background_div {
+        display: none;
+    }
+
+    .background_div_invert {
+        display: none;
+    }
+
+    .background_div_web {
+        display: none;
+    }
+
+    .background_div_location {
+        display: none;
+    }
+
+    .background_div_contact {
+        display: none;
+    }
+}

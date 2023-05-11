@@ -19,7 +19,7 @@ const HomepageLinks = (props) => {
           navigate("/webDesign");
         }}
       />
-      <div>
+      <div> 
         <HomepageLinkItem
           image="app"
           title="App Design"

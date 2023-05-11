@@ -11,7 +11,7 @@ const BackgroundDiv = (props) => {
       } ${
         props.invert === "location" &&
         `${styles.background_div_location} ${styles.background_div_invert}`
-      }`}
+      } ${props.invert === "Contact" && `${styles.background_div_contact}`}`}
     />
   );
 };

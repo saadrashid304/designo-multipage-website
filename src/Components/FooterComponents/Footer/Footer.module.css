@@ -19,13 +19,25 @@
 
     font-weight: 700;
     font-size: 16px;
-    line-height: 26px;
+    line-height: 0px;
     color: #FFFFFF;
 
     mix-blend-mode: normal;
     opacity: 0.5;
 
     margin: 0vh 10vw;
+}
+
+.footer_address {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.footer_contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
 }
 
 .footer_address_normal {
@@ -41,4 +53,16 @@
 
 .footer_icon_container img {
     cursor: pointer;
+}
+
+@media screen and (max-width: 768px) {
+    .footer_icon_container {
+        width: 25%;
+    }
+
+    .footer_navbar_container {
+        padding-top: 10vh;
+        /* margin-top: 120vh; */
+        /* border: 2px solid red; */
+    }
 }

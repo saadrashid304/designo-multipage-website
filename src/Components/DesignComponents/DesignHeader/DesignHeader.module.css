@@ -47,3 +47,21 @@
     line-height: 26px;
     text-align: center;
 }
+
+@media screen and (max-width: 768px) {
+    .design_header_container_web {
+        background-position: center center;
+    }
+
+    .design_header_container_app {
+        background-position: center center;
+    }
+
+    .design_header_container_graphic {
+        background-position: center center;
+    }
+
+    .design_header_description {
+        width: 80%;
+    }
+}

@@ -11,3 +11,9 @@
     /* border: 2px solid black; */
     margin-top: 10vh;
 }
+
+@media screen and (max-width: 768px) {
+    .design_link_container {
+        flex-direction: column;
+    }
+}

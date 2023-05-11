@@ -81,3 +81,49 @@
 .image_web_small:hover::before {
     background-color: rgba(231, 129, 107, 0.8);
 }
+
+@media screen and (max-width: 768px) {
+    .homepage_link_item_container {
+        background-repeat: no-repeat;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        color: #fff;
+        text-transform: uppercase;
+        cursor: pointer;
+    }
+
+    .image_web {
+        background-image: url('../../../assets/home/tablet/image-web-design.jpg');
+        background-size: 100% 100%;
+        width: 100%;
+        height: 68.15vh;
+        margin-bottom: 2.6vh;
+    }
+
+    .image_web_small {
+        background-image: url('../../../assets//home/tablet/image-web-design.jpg');
+        background-size: 100% 100%;
+        width: 100%;
+        height: 21.29vh;
+        margin-bottom: 2.6vh;
+        margin-bottom: 2.6vh;
+    }
+
+    .image_app {
+        background-image: url('../../../assets//home/tablet/image-app-design.jpg');
+        background-size: 100% 100%;
+        width: 100%;
+        height: 21.29vh;
+        margin-bottom: 2.6vh;
+    }
+
+    .image_graphic {
+        background-image: url('../../../assets//home/tablet/image-graphic-design.jpg');
+        background-size: 100% 100%;
+        width: 100%;
+        height: 21.29vh;
+    }
+}

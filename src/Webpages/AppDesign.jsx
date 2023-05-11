@@ -7,7 +7,7 @@ import DesignHeader from "../Components/DesignComponents/DesignHeader/DesignHead
 import DesignContentList from "../Components/DesignComponents/DesignContentList/DesignContentList";
 import DesignLinks from "../Components/DesignComponents/DesignLinks/DesignLinks";
 
-const AppDesign = (props) => {
+const AppDesign = () => {
   const dispach = useDispatch();
 
   useEffect(() => {

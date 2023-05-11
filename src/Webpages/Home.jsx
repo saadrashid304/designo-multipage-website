@@ -9,7 +9,7 @@ import HomepageFeatures from "../Components/HomepageComponents/HomepageFeatures/
 
 import mobileImg from "../assets/home/desktop/image-hero-phone.png";
 
-const Home = (props) => {
+const Home = () => {
   const dispach = useDispatch();
 
   useEffect(() => {

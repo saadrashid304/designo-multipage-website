@@ -1,0 +1,153 @@
+.contact_header_container {
+    width: 79.5vw;
+    height: 51.11vh;
+    margin: 0vh 10vw;
+    border-radius: 14px;
+    margin-top: 5vh;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 200;
+
+    background-color: #E7816B;
+    background-image: url('../../../assets/about/desktop/bg-pattern-hero-about-desktop.svg');
+    background-repeat: no-repeat;
+    background-position: bottom left;
+    position: relative;
+    overflow: hidden;
+}
+
+.contact_header_image {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact_header_content_container {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    /* or 162% */
+    color: #FFFFFF;
+    margin-left: 7vw;
+    width: 80vw;
+}
+
+.contact_header_content_title {
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 48px;
+    margin-bottom: 0px;
+}
+
+.contact_header_content_description {
+    width: 30vw;
+}
+
+.contact_header_image form {
+    width: 80%;
+}
+
+.contact_header_input_container {
+    display: flex;
+    align-items: center;
+    /* border: 1px solid black; */
+    margin-bottom: 3vh;
+    border-bottom: 2px solid #fff;
+    width: 85%;
+}
+
+.contact_header_input_error_container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* border: 2px solid blue; */
+    /* border-bottom: 2px solid #fff; */
+    width: 9vw;
+    height: 3.55vh;
+    /* padding-bottom: 2.5px; */
+}
+
+.contact_header_input_error_container1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* border: 2px solid blue; */
+    /* border-bottom: 2px solid #fff; */
+    width: 9vw;
+    height: 11.3vh;
+    /* padding-bottom: 7.9vh; */
+}
+
+.contact_header_input_container input {
+    background-color: transparent;
+    outline: none;
+    border: none;
+    /* border-bottom: 2px solid #fff; */
+    color: #fff;
+    font-weight: 500;
+    padding: 1vh 0.5vw;
+    width: 15vw;
+}
+
+.contact_header_input_container textarea {
+    background-color: transparent;
+    outline: none;
+    border: none;
+    /* border-bottom: 2px solid #fff; */
+    color: #fff;
+    font-weight: 500;
+    padding: 1vh 0.5vw;
+    width: 15vw;
+    resize: none;
+}
+
+.contact_header_input_container input::placeholder {
+    color: #fff;
+    opacity: 0.5;
+}
+
+.contact_header_input_container textarea::placeholder {
+    color: #fff;
+    opacity: 0.5;
+}
+
+.contact_header_input_container:has(input:focus) {
+    outline: none;
+    border-bottom: 4px solid #fff;
+}
+
+.contact_header_input_container:has(textarea:focus) {
+    outline: none;
+    border-bottom: 4px solid #fff;
+}
+
+.contact_header_input_container p {
+    color: #fff;
+    width: 6vw;
+    text-align: center;
+    line-height: 0px;
+}
+
+.contact_header_submit_button {
+    background-color: #fff;
+    width: 25%;
+    padding: 1vh 0px;
+    text-align: center;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.contact_header_submit_button:hover {
+    color: #fff;
+    background: #FFAD9B;
+}
+
+.contact_header_submit_button_container {
+    width: 85%;
+    display: flex;
+    justify-content: flex-end;
+}

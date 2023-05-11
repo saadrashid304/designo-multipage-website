@@ -6,10 +6,12 @@ const HomepageFeaturesItem = (props) => {
       <div className={styles.homepage_features_item_image}>
         <img src={props.image} alt="" />
       </div>
-      <p className={styles.homepage_features_item_title}>{props.title}</p>
-      <p className={styles.homepage_features_item_description}>
-        {props.description}
-      </p>
+      <div className={styles.homepage_features_content_container}>
+        <p className={styles.homepage_features_item_title}>{props.title}</p>
+        <p className={styles.homepage_features_item_description}>
+          {props.description}
+        </p>
+      </div>
     </div>
   );
 };

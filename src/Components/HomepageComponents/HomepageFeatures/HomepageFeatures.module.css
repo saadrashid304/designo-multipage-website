@@ -11,3 +11,10 @@
     /* border: 2px solid black; */
     margin-top: 15vh;
 }
+
+@media screen and (max-width: 768px) {
+    .homepage_feature_container {
+        flex-direction: column;
+        height: auto;
+    }
+}
