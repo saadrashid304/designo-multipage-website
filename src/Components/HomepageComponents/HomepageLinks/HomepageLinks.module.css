@@ -17,3 +17,12 @@
         flex-direction: column;
     }
 }
+
+@media screen and (max-width: 375px) {
+    .homepage_link_container {
+        height: auto;
+        width: auto;
+        margin-left: 5vw;
+        margin-right: 5vw;
+    }
+}

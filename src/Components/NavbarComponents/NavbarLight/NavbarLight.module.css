@@ -15,5 +15,11 @@
     .navbar_container {
         margin-left: 3vh;
         margin-right: 3vh;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .navbar_container img {
+        margin-bottom: 5vh;
     }
 }

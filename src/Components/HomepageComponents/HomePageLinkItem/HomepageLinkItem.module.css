@@ -127,3 +127,34 @@
         height: 21.29vh;
     }
 }
+
+@media screen and (max-width: 375px) {
+    .homepage_link_item_container {
+        border-radius: 14px;
+    }
+
+    .image_web {
+        background-image: url('../../../assets/home/mobile/image-web-design.jpg');
+        height: 26.62vh;
+    }
+
+    .image_web_small {
+        background-image: url('../../../assets/home/mobile/image-web-design.jpg');
+        height: 26.62vh;
+    }
+
+    .image_app {
+        background-image: url('../../../assets/home/mobile/image-app-design.jpg');
+        height: 26.62vh;
+    }
+
+    .image_graphic {
+        background-image: url('../../../assets/home/mobile/image-graphic-design.jpg');
+        height: 26.62vh;
+    }
+
+    .homepage_link_item_title {
+        font-size: 28px;
+        line-height: 36px;
+    }
+}

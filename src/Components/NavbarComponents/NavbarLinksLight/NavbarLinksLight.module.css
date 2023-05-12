@@ -8,7 +8,7 @@
     font-size: 14px;
     line-height: 14px;
     letter-spacing: 2px;
-    color: #333136;
+    color: #fff;
 }
 
 .navbar_links_container li {
@@ -24,16 +24,14 @@
     color: #fff;
 }
 
-.navbar_menu_icon {
-    display: none;
-}
-
 @media screen and (max-width: 375px) {
     .navbar_links_container {
-        display: none;
+        flex-direction: column;
+        align-items: center;
     }
 
-    .navbar_menu_icon {
-        display: block;
+    .navbar_links_container li {
+        margin-left: 0vw;
+        margin-bottom: 5vh;
     }
 }

@@ -1,7 +1,7 @@
 import { useState } from "react";
 
 import styles from "./Footer.module.css";
-import Navbar from "../../NavbarComponents/Navbar/Navbar";
+import NavbarLight from "../../NavbarComponents/NavbarLight/NavbarLight";
 
 import logoLight from "../../../assets/shared/desktop/logo-light.png";
 
@@ -47,7 +47,7 @@ const Footer = (props) => {
   return (
     <div className={styles.footer_container}>
       <div className={styles.footer_navbar_container}>
-        <Navbar logo={logoLight} light={true} />
+        <NavbarLight logo={logoLight} light={true} />
       </div>
       <div className={styles.footer_information}>
         <div className={styles.footer_address}>

@@ -95,3 +95,39 @@
         width: 85%;
     }
 }
+
+@media screen and (max-width: 375px) {
+    .ask_to_contact_container {
+        transform: translateY(10vh);
+        margin-left: 5vw;
+        margin-right: 5vw;
+        width: auto;
+        height: 63vh;
+        background-position: center bottom;
+        /* background-size: 100% 100%; */
+        justify-content: flex-start;
+        margin-top: -3vh;
+    }
+
+    .ask_to_contact_content_title {
+        line-height: 36px;
+        font-size: 32px;
+
+    }
+
+    .ask_to_contact_content_description {
+        line-height: 23px;
+        font-size: 15px;
+        width: 100%;
+    }
+
+    .ask_to_contact_content_container {
+        margin: 0px;
+        margin-top: 1vh;
+    }
+
+    .ask_to_contact_content_button {
+        margin-top: 2vh;
+        width: 50%;
+    }
+}

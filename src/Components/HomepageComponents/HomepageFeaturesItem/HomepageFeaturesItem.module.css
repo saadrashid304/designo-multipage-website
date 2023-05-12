@@ -9,7 +9,7 @@
 }
 
 .homepage_features_item_title {
-    font-weight: 500;
+    font-weight: 600;
     font-size: 20px;
     line-height: 26px;
     /* identical to box height, or 130% */
@@ -50,5 +50,24 @@
 
     .homepage_features_content_container {
         width: 60%;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .homepage_features_item_conatiner {
+        flex-direction: column;
+    }
+
+    .homepage_features_item_title {
+        text-align: center;
+    }
+
+    .homepage_features_item_description {
+        width: 100%;
+        text-align: center;
+    }
+
+    .homepage_features_content_container {
+        width: 100%;
     }
 }

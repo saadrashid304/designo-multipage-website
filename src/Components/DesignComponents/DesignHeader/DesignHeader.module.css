@@ -65,3 +65,24 @@
         width: 80%;
     }
 }
+
+@media screen and (max-width: 375px) {
+    .design_header_container {
+        margin: 0px;
+        width: auto;
+        height: 34.07vh;
+        border-radius: 0px;
+    }
+
+    .design_header_description {
+        width: 90%;
+        font-size: 15px;
+
+    }
+
+    .design_header_title {
+        font-size: 32px;
+        line-height: 36px;
+        margin-top: 0px;
+    }
+}
