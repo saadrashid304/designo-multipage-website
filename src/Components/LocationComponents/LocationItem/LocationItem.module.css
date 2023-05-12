@@ -104,3 +104,39 @@
         width: 83%;
     }
 }
+
+@media screen and (max-width: 375px) {
+    .location_item_container {
+        flex-direction: column-reverse;
+        margin-bottom: 8vh;
+    }
+
+    .location_item_image {
+        margin-bottom: 0vh;
+        border-radius: 0px;
+    }
+
+    .location_item_content_container {
+        border-radius: 0px;
+        height: auto;
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+    }
+
+    .location_item_content_sub_container {
+        text-align: center;
+    }
+
+    .location_item_address_main_container {
+        flex-direction: column;
+    }
+
+    .location_item_address_container {
+        width: 100%;
+    }
+
+    .location_item_title {
+        font-size: 32px;
+        line-height: 36px;
+    }
+}

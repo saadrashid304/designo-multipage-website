@@ -89,3 +89,30 @@
         text-align: center;
     }
 }
+
+@media screen and (max-width: 375px) {
+    .about_description_container {
+        margin: 0px;
+        width: auto;
+        height: 120vh;
+        border-radius: 0px;
+    }
+
+    .about_description_content_description {
+        width: 90%;
+        font-size: 15px;
+    }
+
+    .about_description_content_title {
+        font-size: 32px;
+        line-height: 36px;
+    }
+
+    .about_description_image {
+        background-image: url('../../../assets/about/mobile/image-world-class-talent.jpg');
+    }
+
+    .about_description_image_left {
+        background-image: url('../../../assets/about/mobile/image-real-deal.jpg');
+    }
+}

@@ -184,7 +184,6 @@
 
     .contact_header_input_error_container {
         width: 35%;
-
     }
 
     .contact_header_input_error_container1 {
@@ -197,5 +196,41 @@
 
     .contact_header_submit_button_container {
         width: 100%;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .contact_header_container {
+        margin: 0px;
+        border-radius: 0px;
+        width: auto;
+        height: auto;
+        padding-bottom: 4rem;
+    }
+
+    .contact_header_content_container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 0px;
+        margin-bottom: 5vh;
+    }
+
+    .contact_header_content_description {
+        width: 90%;
+        text-align: center;
+    }
+
+    .contact_header_input_error_container {
+        width: 65%;
+    }
+
+    .contact_header_input_error_container1 {
+        width: 65%;
+    }
+
+    .contact_header_input_container p {
+        width: 95%;
     }
 }

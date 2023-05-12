@@ -49,3 +49,13 @@
         width: 25%;
     }
 }
+
+@media screen and (max-width: 375px) {
+    .about_location_item_conatiner {
+        margin-bottom: 8vh;
+    }
+
+    .about_location_item_button {
+        width: 55%;
+    }
+}
