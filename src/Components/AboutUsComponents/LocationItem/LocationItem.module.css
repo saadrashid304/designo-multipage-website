@@ -39,3 +39,13 @@
     background-color: #FFAD9B;
     border: 2px solid #FFAD9B;
 }
+
+@media screen and (max-width: 768px) {
+    .about_location_item_conatiner {
+        margin-bottom: 8vh;
+    }
+
+    .about_location_item_button {
+        width: 25%;
+    }
+}

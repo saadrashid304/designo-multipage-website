@@ -7,3 +7,9 @@
     justify-content: space-around;
     margin-top: 17.04vh;
 }
+
+@media screen and (max-width: 768px) {
+    .about_location_container {
+        flex-direction: column;
+    }
+}

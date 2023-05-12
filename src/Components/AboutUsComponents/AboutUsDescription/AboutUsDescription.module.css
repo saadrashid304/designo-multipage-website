@@ -56,3 +56,36 @@
 .about_description_content_description {
     width: 30vw;
 }
+
+@media screen and (max-width: 768px) {
+    .about_description_container {
+        height: 78.38vh;
+        flex-direction: column;
+        background-position: center center;
+    }
+
+    .about_description_image {
+        height: 45%;
+        width: 100%;
+        background-image: url('../../../assets/about/tablet/image-world-class-talent.jpg');
+    }
+
+    .about_description_image_left {
+        background-image: url('../../../assets/about/tablet/image-real-deal.jpg');
+    }
+
+    .about_description_content_container {
+        margin-left: 0vw;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        height: 55%;
+    }
+
+    .about_description_content_description {
+        width: 80%;
+        text-align: center;
+    }
+}
