@@ -1,6 +1,6 @@
 .homepage_feature_container {
     width: 79.5vw;
-    height: 43.87vh;
+    /* height: 43.87vh; */
     margin: 0vh 10vw;
     position: relative;
     z-index: 200;
@@ -12,18 +12,18 @@
     margin-top: 15vh;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 860px) {
     .homepage_feature_container {
         flex-direction: column;
         height: auto;
     }
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 580px) {
     .homepage_feature_container {
         height: auto;
         width: auto;
-        margin-left: 5vw;
-        margin-right: 5vw;
+        margin-left: 10vw;
+        margin-right: 10vw;
     }
 }

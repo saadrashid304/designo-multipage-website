@@ -57,7 +57,7 @@
     width: 30vw;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 876px) {
     .about_description_container {
         height: 78.38vh;
         flex-direction: column;
@@ -87,6 +87,17 @@
     .about_description_content_description {
         width: 80%;
         text-align: center;
+    }
+}
+
+@media screen and (max-width: 786px) {
+    .about_description_content_title {
+        font-size: 32px;
+        line-height: 36px;
+    }
+
+    .about_description_content_description {
+        font-size: 12px;
     }
 }
 

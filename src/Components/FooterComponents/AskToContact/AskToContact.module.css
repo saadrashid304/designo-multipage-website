@@ -62,7 +62,7 @@
     margin: 0vh 10vw 0vw 5vw;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1136px) {
     .ask_to_contact_container {
         margin-top: 0vh;
         background-position: left center;
@@ -93,6 +93,16 @@
     .ask_to_contact_content_description {
         line-height: 23px;
         width: 85%;
+    }
+}
+
+@media screen and (max-width: 740px) {
+    .ask_to_contact_content_title {
+        font-size: 32px;
+    }
+
+    .ask_to_contact_content_button {
+        width: 50%;
     }
 }
 

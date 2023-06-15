@@ -23,21 +23,25 @@
     color: #FFFFFF;
 
     mix-blend-mode: normal;
-    opacity: 0.5;
+
 
     margin: 0vh 10vw;
 }
+
 
 .footer_address {
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
+    opacity: 0.5;
+
 }
 
 .footer_contact {
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
+    opacity: 0.5;
 }
 
 .footer_address_normal {
@@ -49,6 +53,7 @@
     justify-content: space-between;
     align-items: center;
     width: 14%;
+    opacity: 1;
 }
 
 .footer_icon_container img {
@@ -67,26 +72,15 @@
     }
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 679px) {
     .footer_container {
         height: auto;
     }
 
     .footer_information {
-
         flex-direction: column;
         justify-content: center;
         align-items: center;
-
-        font-weight: 700;
-        font-size: 16px;
-        line-height: 0px;
-        color: #FFFFFF;
-
-        mix-blend-mode: normal;
-        opacity: 0.5;
-
-        margin: 0vh 10vw;
     }
 
     .footer_address {

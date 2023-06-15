@@ -28,7 +28,7 @@
     display: none;
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 679px) {
     .navbar_links_container {
         display: none;
     }
