@@ -27,7 +27,7 @@
     font-size: 16px;
 
     color: #fff;
-    width: 7.8vw;
+    width: 149.6px;
     background: #E7816B;
     border-radius: 8px;
     padding: 1.5vh 0vw;
@@ -40,14 +40,14 @@
     border: 2px solid #FFAD9B;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 950px) {
     .about_location_item_conatiner {
         margin-bottom: 8vh;
     }
 
-    .about_location_item_button {
+    /* .about_location_item_button {
         width: 25%;
-    }
+    } */
 }
 
 @media screen and (max-width: 375px) {
@@ -55,7 +55,7 @@
         margin-bottom: 8vh;
     }
 
-    .about_location_item_button {
+    /* .about_location_item_button {
         width: 55%;
-    }
+    } */
 }

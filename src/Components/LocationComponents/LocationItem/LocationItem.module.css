@@ -62,7 +62,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-
+    width: 600px;
 }
 
 .location_item_address_container {
@@ -73,7 +73,7 @@
     font-weight: bold;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1300px) {
     .location_item_image_canada {
         background-image: url('../../../assets/locations/tablet/image-map-canada.png');
     }
@@ -103,9 +103,13 @@
     .location_item_content_sub_container {
         width: 83%;
     }
+
+    .location_item_address_main_container {
+        width: auto;
+    }
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 679px) {
     .location_item_container {
         flex-direction: column-reverse;
         margin-bottom: 8vh;

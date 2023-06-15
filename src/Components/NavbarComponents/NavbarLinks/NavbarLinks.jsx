@@ -1,13 +1,15 @@
-import { Fragment } from "react";
+import { Fragment, useState } from "react";
 import styles from "./NavbarLinks.module.css";
 import { useNavigate } from "react-router-dom";
 import { useDispatch } from "react-redux";
 import { setService } from "../../../store/actions/ServiceAction";
 import menu from "../../../assets/shared/mobile/icon-hamburger.svg";
+import close from "../../../assets/shared/mobile/icon-close.svg";
 
 const NavbarLinks = (props) => {
   const dispatch = useDispatch();
   const navigate = useNavigate();
+  const [displayMenu, setDisplayMenu] = useState(false);
 
   return (
     <Fragment>
@@ -41,7 +43,12 @@ const NavbarLinks = (props) => {
           Contact
         </li>
       </ul>
-      <img src={menu} alt="" className={styles.navbar_menu_icon} />
+      <img
+        src={displayMenu ? close : menu}
+        alt=""
+        onClick={() => setDisplayMenu((prevState) => !prevState)}
+        className={styles.navbar_menu_icon}
+      />
     </Fragment>
   );
 };
