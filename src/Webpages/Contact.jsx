@@ -11,7 +11,7 @@ const Contact = () => {
 
   useEffect(() => {
     dispach(setService("Contact"));
-  }, []);
+  }, [dispach]);
 
   return (
     <Fragment>

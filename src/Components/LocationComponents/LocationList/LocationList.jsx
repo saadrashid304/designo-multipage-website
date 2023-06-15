@@ -1,10 +1,6 @@
 import styles from "./LocationList.module.css";
 import LocationItem from "../LocationItem/LocationItem";
 
-import canada from "../../../assets/locations/desktop/image-map-canada.png";
-import australia from "../../../assets/locations/desktop/image-map-australia.png";
-import uk from "../../../assets/locations/desktop/image-map-united-kingdom.png";
-
 const LocationList = () => {
   return (
     <div className={styles.location_list_container}>

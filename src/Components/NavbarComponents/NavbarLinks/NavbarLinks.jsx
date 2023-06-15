@@ -5,11 +5,16 @@ import { useDispatch } from "react-redux";
 import { setService } from "../../../store/actions/ServiceAction";
 import menu from "../../../assets/shared/mobile/icon-hamburger.svg";
 import close from "../../../assets/shared/mobile/icon-close.svg";
+import Modal from "../Modal/Modal";
 
 const NavbarLinks = (props) => {
   const dispatch = useDispatch();
   const navigate = useNavigate();
   const [displayMenu, setDisplayMenu] = useState(false);
+
+  const hideDisplayMenuHandler = () => {
+    setDisplayMenu(false);
+  };
 
   return (
     <Fragment>
@@ -49,6 +54,10 @@ const NavbarLinks = (props) => {
         onClick={() => setDisplayMenu((prevState) => !prevState)}
         className={styles.navbar_menu_icon}
       />
+      {displayMenu && (
+        <div className={styles.backdrop} onClick={hideDisplayMenuHandler} />
+      )}
+      {displayMenu && <Modal onHideModal={hideDisplayMenuHandler} />}
     </Fragment>
   );
 };

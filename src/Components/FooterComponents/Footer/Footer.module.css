@@ -6,6 +6,10 @@
     z-index: 5;
 }
 
+.footer_contact_space {
+    transform: translateY(14vh);
+}
+
 .footer_navbar_container {
     padding-top: 7vh;
     /* margin-top: 120vh; */

@@ -8,11 +8,11 @@ import DesignContentList from "../Components/DesignComponents/DesignContentList/
 import DesignLinks from "../Components/DesignComponents/DesignLinks/DesignLinks";
 
 const WebDesign = () => {
-  const dispach = useDispatch();
+  const dispatch = useDispatch();
 
   useEffect(() => {
-    dispach(setService("Web"));
-  }, []);
+    dispatch(setService("Web"));
+  }, [dispatch]);
 
   return (
     <Fragment>

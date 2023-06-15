@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { useSelector } from "react-redux";
 
 import styles from "./Footer.module.css";
 import NavbarLight from "../../NavbarComponents/NavbarLight/NavbarLight";
@@ -19,6 +20,7 @@ import instagramS from "../../../assets/shared/desktop/instagram.svg";
 
 const Footer = (props) => {
   const [hover, setHover] = useState(null);
+  const service = useSelector((state) => state.service);
 
   const onFMouseOver = () => {
     setHover("F");
@@ -45,7 +47,11 @@ const Footer = (props) => {
   };
 
   return (
-    <div className={styles.footer_container}>
+    <div
+      className={`${styles.footer_container} ${
+        service === "Contact" && styles.footer_contact_space
+      }`}
+    >
       <div className={styles.footer_navbar_container}>
         <NavbarLight logo={logoLight} light={true} />
       </div>

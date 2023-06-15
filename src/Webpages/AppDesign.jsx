@@ -12,7 +12,7 @@ const AppDesign = () => {
 
   useEffect(() => {
     dispach(setService("App"));
-  }, []);
+  }, [dispach]);
 
   return (
     <Fragment>

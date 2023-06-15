@@ -10,11 +10,11 @@ import HomepageFeatures from "../Components/HomepageComponents/HomepageFeatures/
 import mobileImg from "../assets/home/desktop/image-hero-phone.png";
 
 const Home = () => {
-  const dispach = useDispatch();
+  const dispatch = useDispatch();
 
   useEffect(() => {
-    dispach(setService("Home"));
-  }, []);
+    dispatch(setService("Home"));
+  }, [dispatch]);
 
   return (
     <Fragment>

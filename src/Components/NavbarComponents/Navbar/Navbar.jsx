@@ -1,3 +1,4 @@
+import { Fragment } from "react";
 import styles from "./Navbar.module.css";
 import NavbarLinks from "../NavbarLinks/NavbarLinks";
 import { useNavigate } from "react-router-dom";
@@ -8,17 +9,20 @@ const Navbar = (props) => {
   const dispatch = useDispatch();
   const navigate = useNavigate();
   return (
-    <div className={styles.navbar_container}>
-      <img
-        src={props.logo}
-        alt="DESIGNO"
-        onClick={() => {
-          dispatch(setService("Home"));
-          navigate("/");
-        }}
-      />
-      <NavbarLinks light={props.light} />
-    </div>
+    <Fragment>
+      <div className={styles.navbar_container}>
+        <img
+          src={props.logo}
+          alt="DESIGNO"
+          onClick={() => {
+            dispatch(setService("Home"));
+            navigate("/");
+          }}
+        />
+        <NavbarLinks light={props.light} />
+      </div>
+      <div className={styles.extra_space} />
+    </Fragment>
   );
 };
 

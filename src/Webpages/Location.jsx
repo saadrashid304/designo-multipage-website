@@ -5,11 +5,11 @@ import { setService } from "../store/actions/ServiceAction";
 import LocationList from "../Components/LocationComponents/LocationList/LocationList";
 
 const Location = () => {
-  const dispach = useDispatch();
+  const dispatch = useDispatch();
 
   useEffect(() => {
-    dispach(setService("Location"));
-  }, []);
+    dispatch(setService("Location"));
+  }, [dispatch]);
 
   return <LocationList />;
 };

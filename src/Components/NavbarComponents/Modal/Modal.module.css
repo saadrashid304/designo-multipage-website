@@ -1,0 +1,31 @@
+.navbar_modal_container {
+    position: fixed;
+    background-color: #000000;
+    top: 100px;
+    left: 0px;
+    width: 100%;
+    z-index: 500;
+}
+
+.navbar_links_container {
+    color: #fff;
+    list-style: none;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 14px;
+    letter-spacing: 2px;
+    font-size: 24px;
+    line-height: 25px;
+    padding-top: 2vh;
+    padding-bottom: 1vh;
+}
+
+.navbar_links_container li {
+    margin-bottom: 3vh;
+    cursor: pointer;
+}
+
+.navbar_links_container li:hover {
+    text-decoration: underline;
+}

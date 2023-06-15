@@ -12,7 +12,7 @@ const GraphicDesign = () => {
 
   useEffect(() => {
     dispach(setService("Graphic"));
-  }, []);
+  }, [dispach]);
 
   return (
     <Fragment>

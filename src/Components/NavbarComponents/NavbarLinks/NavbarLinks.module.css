@@ -28,6 +28,16 @@
     display: none;
 }
 
+.backdrop {
+    position: fixed;
+    top: 100px;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 490;
+}
+
 @media screen and (max-width: 679px) {
     .navbar_links_container {
         display: none;

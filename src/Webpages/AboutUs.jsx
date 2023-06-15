@@ -12,7 +12,7 @@ const AboutUs = () => {
 
   useEffect(() => {
     dispach(setService("AboutUs"));
-  }, []);
+  }, [dispach]);
 
   return (
     <Fragment>
